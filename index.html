@@ -52,7 +52,28 @@
         </button>
       </div>
     </section>
-    <section class="h-[30rem] w-full bg-purple-light"></section>
+    <section class="bg-dark w-full font-bebas text-center py-12 px-5 sm:px-12 text-white">
+      <h1 class="font-bebas text-3xl sm:text-5xl">FIQUE POR DENTRO DAS NOVIDADES</h1>
+      <p class="font-work text-lg md:w-[34rem] sm:text-xl mb-5 md:mb-4 md:mx-auto sm:my-5 md:my-2">Cadastre-se para receber novidades, lançamentos e recomendações personalizadas.</p>
+      <div>
+        <input type="checkbox" id="contato" class="peer hidden" />
+        <label for="contato" class="hover:scale-105 active:scale-95 transition-all rounded-xl bg-[#4400d4] px-9 py-1 text-2xl sm:text-3xl md:text-2xl tracking-wide cursor-pointer inline-block">Cadastre-se</label>
+
+        <div class="hidden peer-checked:block mt-4 sm:mt-6 rounded-lg sm:rounded-3xl p-4 sm:py-6 md:px-6 bg-light max-w-md sm:max-w-2xl mx-auto">
+          <form class="flex flex-col sm:flex-row font-work gap-2 sm:gap-5">
+            <div class="flex flex-col flex-1 gap-2 sm:gap-1">
+              <label class="text-left sm:text-lg" for="nome">Digite seu nome:</label>
+              <input type="text" id="nome" placeholder="Seu nome" class="w-full px-3 py-2 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#a33aff]" required>
+            </div>
+            <div class="flex flex-col flex-1 gap-2 sm:gap-1">
+              <label class="text-left sm:text-lg" for="email">Digite seu email:</label>
+              <input type="email" id="email" placeholder="Seu email" class="w-full px-3 py-2 rounded-lg text-black placeholder-gray-400 focus:outline-none focus:ring-2 focus:ring-[#a33aff]" required>
+            </div>
+            <button type="submit" class="w-full sm:w-auto hover:scale-105 active:scale-95 transition-all mt-2 sm:mt-auto rounded-lg bg-[#4400d4] px-8 py-2 sm:h-11 text-xl tracking-wide font-bold">Enviar</button>
+          </form>
+        </div>
+      </div>
+    </section>
 
     <script>
       const btn = document.getElementById("menu-btn");
