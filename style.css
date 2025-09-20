@@ -1,0 +1,51 @@
+@import url("https://fonts.googleapis.com/css2?family=Bebas+Neue&family=Work+Sans:wght@400;700&display=swap");
+
+:root {
+  --font-bebas: "Bebas Neue", cursive;
+  --font-work: "Work Sans", sans-serif;
+
+  --color-purple-dark: #4400d4;
+  --color-purple-medium: #a33aff;
+  --color-purple-light: #6e21ff;
+  --color-purple-lighter: #9d69ff;
+  --color-dark: #222222;
+  --color-light:# #333333;
+}
+
+@layer utilities {
+  .font-bebas {
+    font-family: var(--font-bebas);
+  }
+  .font-work {
+    font-family: var(--font-work);
+  }
+
+  .text-purple-dark {
+    color: var(--color-purple-dark);
+  }
+  .text-purple-medium {
+    color: var(--color-purple-medium);
+  }
+  .text-purple-light {
+    color: var(--color-purple-light);
+  }
+  .text-dark {
+    color: var(--color-dark);
+  }
+
+  .bg-purple-dark {
+    background-color: var(--color-purple-dark);
+  }
+  .bg-purple-medium {
+    background-color: var(--color-purple-medium);
+  }
+  .bg-purple-light {
+    background-color: var(--color-purple-light);
+  }
+  .bg-dark {
+    background-color: var(--color-dark);
+  }
+  .bg-light {
+    background-color: var(--color-light);
+  }
+}
