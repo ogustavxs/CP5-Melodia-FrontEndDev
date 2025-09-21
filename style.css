@@ -9,7 +9,7 @@
   --color-purple-light: #6e21ff;
   --color-purple-lighter: #9d69ff;
   --color-dark: #222222;
-  --color-light:# #333333;
+  --color-light: #333333;
 }
 
 @layer utilities {
@@ -28,6 +28,9 @@
   }
   .text-purple-light {
     color: var(--color-purple-light);
+  }
+  .text-purple-lighter {
+    color: var(--color-purple-lighter);
   }
   .text-dark {
     color: var(--color-dark);
