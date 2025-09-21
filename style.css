@@ -52,3 +52,8 @@
     background-color: var(--color-light);
   }
 }
+
+.bg-blur {
+  background: rgba(34, 34, 34, 0.6); /* fundo escuro translúcido */
+  backdrop-filter: blur(10px);
+}
