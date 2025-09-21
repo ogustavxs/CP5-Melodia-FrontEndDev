@@ -29,6 +29,9 @@
   .text-purple-light {
     color: var(--color-purple-light);
   }
+  .text-purple-lighter {
+    color: var(--color-purple-lighter);
+  }
   .text-dark {
     color: var(--color-dark);
   }
